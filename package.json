@@ -24,8 +24,14 @@
     "url": "https://github.com/bornaeon/bornaeon.github.io/issues"
   },
   "homepage": "https://github.com/bornaeon/bornaeon.github.io",
-  "devDependencies": {
+  "dependencies": {
     "angular": "^1.4.3",
     "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.0",
+    "gulp": "^3.9.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
   }
 }

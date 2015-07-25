@@ -26,9 +26,9 @@ article {
 	height: 100%;
 	margin: 0 auto -150px; /* the bottom margin is the negative value of the footer's height */
 }
-footer, .push {
-	height: 100px; /* .push must be the same height as .footer */
-	padding:25px 100px;
+footer, #main {
+	height: 100px;
+	padding:25px 0;
 }
 
 hr {
@@ -38,6 +38,14 @@ hr {
 	height: 1px;
     margin : 5px 0;
 	width:100%;
+}
+
+ul {
+	margin-top: 25px;
+}
+
+li {
+	background-color: transparent !important;
 }
 
 .nam{

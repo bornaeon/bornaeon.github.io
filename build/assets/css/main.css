@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+}
+
+@font-face {  
+	font-family: "OratorStd";
+	src: url('../fnt/OratorStd.otf');
+	src: local("../fnt/OratorStd"), url('../fnt/OratorStd.ttf') format("truetype");
+}
+.OratorStd { 
+	font-family:"OratorStd", Tahoma, Aril, verdana, helvetica, sans-serif;  
+}  
+
+
+html, body {
+	height: 100%;
+	background-color:#383838;
+	color:#999999;
+	font-family: OratorStd;
+	text-shadow: 1px 1px 1px #1c1c1c;
+}
+
+article {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -150px; /* the bottom margin is the negative value of the footer's height */
+}
+footer, #main {
+	height: 100px;
+	padding:25px 0;
+}
+
+hr {
+	border : 0;
+    border-bottom: 1px solid #4c4c4c;
+	background-color: #1c1c1c;
+	height: 1px;
+    margin : 5px 0;
+	width:100%;
+}
+
+ul {
+	margin-top: 25px;
+}
+
+li {
+	background-color: transparent !important;
+}
+
+.nam{
+	margin-left: 5px; font-size:20px;
+}
+.des{
+	float:right; margin-right: 5px;
+}
+.crt{
+	font-size:14px; margin-left: 5px;
+}
