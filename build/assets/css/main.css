@@ -8,7 +8,7 @@
 	src: local("../fnt/OratorStd"), url('../fnt/OratorStd.ttf') format("truetype");
 }
 .OratorStd { 
-	font-family:"OratorStd", Tahoma, Aril, verdana, helvetica, sans-serif;  
+	font-family: "OratorStd", Tahoma, Aril, verdana, helvetica, sans-serif;  
 }  
 
 
@@ -16,7 +16,7 @@ html, body {
 	height: 100%;
 	background-color:#383838;
 	color:#999999;
-	font-family: OratorStd;
+	font-family: 'Trebuchet MS', OratorStd;
 	text-shadow: 1px 1px 1px #1c1c1c;
 }
 
