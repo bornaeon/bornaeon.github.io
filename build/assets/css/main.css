@@ -8,7 +8,7 @@
 	src: local("../fnt/OratorStd"), url('../fnt/OratorStd.ttf') format("truetype");
 }
 .OratorStd { 
-	font-family: "OratorStd", Tahoma, Aril, verdana, helvetica, sans-serif;  
+	font-family: 'Trebuchet MS', 'OratorStd', Tahoma, Arial, verdana, helvetica, sans-serif;  
 }  
 
 
@@ -16,7 +16,8 @@ html, body {
 	height: 100%;
 	background-color: #383838;
 	color: #999999;
-	font-family: 'Trebuchet MS', OratorStd;
+	font-family: OratorStd;
+	font-size: 18px;
 	text-shadow: 1px 1px 1px #1c1c1c;
 }
 
@@ -32,12 +33,12 @@ footer, #main {
 }
 
 hr {
-	border : 0;
+	border: 0;
 	border-bottom: 1px solid #4c4c4c;
 	background-color: #1c1c1c;
 	height: 1px;
-	margin : 5px 0;
-	width:100%;
+	margin: 5px 0;
+	width: 100%;
 }
 
 ul {
@@ -48,15 +49,15 @@ li {
 	background-color: transparent !important;
 }
 
-.nam{
+.nam {
 	margin-left: 5px;
-	font-size: 15px;
+	font-size: 20px;
 }
-.des{
-	float:right;
+.des {
+	float: right;
 	margin-right: 5px;
 }
-.crt{
-	font-size: 10px;
+.crt {
+	font-size: 14px;
 	margin-left: 5px;
 }
