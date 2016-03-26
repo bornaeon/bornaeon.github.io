@@ -11,16 +11,13 @@
 	font-family: 'OratorStd', Tahoma, Arial, verdana, helvetica, sans-serif;  
 }  
 
-
 html, body {
 	height: 100%;
 	background-color: #383838;
 	color: #999999;
 	font-family: 'Trebuchet MS', OratorStd;
-	font-size: 16px;
 	text-shadow: 1px 1px 1px #1c1c1c;
 }
-
 article {
 	min-height: 100%;
 	height: auto !important;
@@ -31,7 +28,6 @@ footer, #main {
 	height: 100px;
 	padding: 25px 0;
 }
-
 hr {
 	border: 0;
 	border-bottom: 1px solid #4c4c4c;
@@ -40,11 +36,9 @@ hr {
 	margin: 5px 0;
 	width: 100%;
 }
-
 ul {
 	margin-top: 25px;
 }
-
 li {
 	background-color: transparent !important;
 }
