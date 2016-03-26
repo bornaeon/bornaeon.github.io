@@ -17,7 +17,7 @@ html, body {
 	background-color: #383838;
 	color: #999999;
 	font-family: 'Trebuchet MS', OratorStd;
-	font-size: 18px;
+	font-size: 16px;
 	text-shadow: 1px 1px 1px #1c1c1c;
 }
 
@@ -51,7 +51,7 @@ li {
 
 .nam {
 	margin-left: 5px;
-	font-size: 20px;
+	font-size: 18px;
 }
 .des {
 	float: right;
