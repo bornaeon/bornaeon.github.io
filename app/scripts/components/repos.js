@@ -8,7 +8,7 @@ var Repos = React.createClass({
     var repos = this.props.data.map(function(repo, index){
       return (
         <li className="list-group-item" key={index}>
-          {repo.html_url && <h4><a href={repo.html_url}>{repo.name}</a></h4>}
+          {repo.html_url && <h5><a href={repo.html_url}>{repo.name}</a></h5>}
           {repo.description && <p> {repo.description}</p>}
         </li>
       );

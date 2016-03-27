@@ -8,18 +8,16 @@
 	src: local("../fnt/OratorStd"), url('../fnt/OratorStd.ttf') format("truetype");
 }
 .OratorStd { 
-	font-family:"OratorStd", Tahoma, Aril, verdana, helvetica, sans-serif;  
+	font-family: 'OratorStd', Tahoma, Arial, verdana, helvetica, sans-serif;  
 }  
-
 
 html, body {
 	height: 100%;
-	background-color:#383838;
-	color:#999999;
-	font-family: OratorStd;
+	background-color: #383838;
+	color: #999999;
+	font-family: 'Trebuchet MS', OratorStd;
 	text-shadow: 1px 1px 1px #1c1c1c;
 }
-
 article {
 	min-height: 100%;
 	height: auto !important;
@@ -28,32 +26,32 @@ article {
 }
 footer, #main {
 	height: 100px;
-	padding:25px 0;
+	padding: 25px 0;
 }
-
 hr {
-	border : 0;
-    border-bottom: 1px solid #4c4c4c;
+	border: 0;
+	border-bottom: 1px solid #4c4c4c;
 	background-color: #1c1c1c;
 	height: 1px;
-    margin : 5px 0;
-	width:100%;
+	margin: 5px 0;
+	width: 100%;
 }
-
 ul {
 	margin-top: 25px;
 }
-
 li {
 	background-color: transparent !important;
 }
 
-.nam{
-	margin-left: 5px; font-size:20px;
+.nam {
+	margin-left: 5px;
+	font-size: 18px;
 }
-.des{
-	float:right; margin-right: 5px;
+.des {
+	float: right;
+	margin-right: 5px;
 }
-.crt{
-	font-size:14px; margin-left: 5px;
+.crt {
+	font-size: 14px;
+	margin-left: 5px;
 }
